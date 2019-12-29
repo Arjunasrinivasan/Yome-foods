@@ -1,0 +1,8 @@
+@media only screen and (max-width: 991px) and (min-width: 320px) 
+{
+    .footer-logo
+    {
+        width: 110px!important;
+    }
+    
+}

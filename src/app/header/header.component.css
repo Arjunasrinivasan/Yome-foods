@@ -1,0 +1,9 @@
+/* css for mobile view section*/
+@media only screen and (max-width: 767px) and (min-width: 320px) 
+{
+    .mob_view
+    {
+        padding-top: 16px!important;
+    }
+    
+}

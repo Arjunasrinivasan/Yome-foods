@@ -1,0 +1,54 @@
+<header id="header" (scroll)="onWindowScroll($event)">
+    <div id="navbar" class="startp-nav {{layoutClass}}">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container">
+                <a class="navbar-brand" routerLink="/home">
+                    <img src="assets/img/hike/images/logo.png" alt="logo" style="width:225px;">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation" (click)="toggleNavbar()">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" [ngClass]="{'show': navbarOpen}" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav ml-auto">
+                        <li class="nav-item" *ngFor="let menu of menus"
+                            (click)="menu.submenus=='' ? toggleNavbar() : '';">
+                            <a routerLink="{{menu.link}}" routerLinkActive="active" class="nav-link"
+                                *ngIf="menu.submenus == ''">{{menu.name}}</a>
+                            <a href="javascript:void(0)" (click)="toggleServices(menu.id)" class="nav-link"
+                                *ngIf="menu.submenus != ''">{{menu.name}} <i-feather name="chevron-down"></i-feather>
+                            </a>
+                            <ul class="dropdown_menu collapse " *ngIf="menu.submenus != ''"
+                                [ngClass]="{'show': menu.toggle}">
+                                <li class="nav-item" *ngFor="let submenu of menu.submenus">
+                                    <a routerLink="{{submenu.link}}" (click)="toggleNavbar()" routerLinkActive="active"
+                                        class="nav-link" *ngIf="submenu.subsubmenus == ''"> {{submenu.name}}</a>
+                                    <a href="javascript:void(0)" class="nav-link"
+                                        (click)="toggleSubServices(menu.id, submenu.id)"
+                                        *ngIf="submenu.subsubmenus != ''">{{submenu.name}}<i-feather
+                                            name="chevron-down"></i-feather></a>
+                                    <ul class="dropdown_menu collapse" *ngIf="submenu.subsubmenus != ''"
+                                        [ngClass]="{'show': submenu.toggle}">
+                                        <li (click)="toggleNavbar()" class="nav-item"
+                                            *ngFor="let subsubmenu of submenu.subsubmenus">
+                                            <a routerLink="{{subsubmenu.link}}" routerLinkActive="active"
+                                                class="nav-link"> {{subsubmenu.name}} </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="others-option">
+                    <!----<a href="javascript:void(0)" class="btn btn-light">Support</a>-->
+                    <a href="javascript:void(0)" class="btn btn-primary">Login</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
