@@ -9,7 +9,8 @@
     "deploy": "ng build --prod && firebase deploy --only hosting:newlininfotech",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "firebase-login": "firebase login"
   },
   "private": true,
   "dependencies": {
