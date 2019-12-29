@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "site": "newlininfotech",
+      "public": "dist/startp-ng",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

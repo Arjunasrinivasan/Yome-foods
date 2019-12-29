@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "newlininfotech-dc00e"
+  },
+  "targets": {
+    "newlininfotech-dc00e": {
+      "hosting": {
+        "newlininfotech": [
+          "newlininfotech"
+        ]
+      }
+    }
+  }
+}
