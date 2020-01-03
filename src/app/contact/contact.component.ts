@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { zohoConfig } from "../config/zoho.config";
+import { Message } from '../model/message.model';
+import { environment } from 'src/environments/environment';
+import { take } from "rxjs/operators";
 
 @Component({
   selector: 'app-contact',
@@ -35,31 +37,44 @@ export class ContactComponent implements OnInit {
   // convenience getter for easy access to form fields
   get f() { return this.registerForm.controls; }
 
-  processForm() {
+  requestBody(): Message {
+    return {
+      salutation: this.registerForm.value.salutation,
+      fname: this.registerForm.value.fname,
+      lname: this.registerForm.value.lname,
+      email: this.registerForm.value.email,
+      phoneNumber: this.registerForm.value.phone_number,
+      ourServices: this.registerForm.value.our_services,
+      message: this.registerForm.value.message
+    }
+  }
+
+  async processForm() {
     this.submitted = true;
     // stop here if form is invalid
     if (this.registerForm.invalid) {
       return;
     } else {
-      const headers1 = new HttpHeaders();
-      // this.http.post("https://us-central1-newlininfotech-dc00e.cloudfunctions.net/sendMessage", {
-      this.http.post("https://us-central1-newlininfotech-dc00e.cloudfunctions.net/sendToZohoCrm", {
-        salutation: this.registerForm.value.salutation, fname: this.registerForm.value.fname, lname: this.registerForm.value.lname, email: this.registerForm.value.email, phone_number: this.registerForm.value.phone_number, our_services: this.registerForm.value.our_services, message: this.registerForm.value.message
-      }, { headers: headers1 })
-        .subscribe((res2: any) => {
-          if (res2.data[0].code === 'SUCCESS') {
-            this.responseMessage = "Thanks, we received your message.";
-            this.responseMessageType = "success";
-            this.onReset();
-          }
-        },
-          (err) => { this.responseMessageType = "error"; this.responseMessage = "Oops some error has occurred please try again "; });
+      try {
+        await Promise.all([
+          this.http.post(`${environment.baseUrl + 'sendToZohoCrm'}`, this.requestBody())
+            .pipe(take(1))
+            .toPromise(),
+          this.http.post(`${environment.baseUrl + 'sendMessage'}`, this.requestBody())
+            .pipe(take(1))
+            .toPromise()
+        ].map(p => p.catch(e => e)));
+
+        this.onReset();
+        this.responseMessage = "Thanks, we received your message.";
+        this.responseMessageType = "success";
+
+      } catch (error) {
+        console.log(error);
+        this.responseMessageType = "error";
+        this.responseMessage = "Oops some error has occurred please try again ";
+      }
     }
-
-  }
-
-  sendToZohoCrm() {
-
   }
 
   onReset() {
