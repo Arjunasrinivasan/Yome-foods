@@ -99,7 +99,9 @@ export class HeaderComponent implements OnInit {
                 { id: '5', toggle: false, name: 'Content Management System', link: '/cms', subsubmenus: '' },
                 { id: '6', toggle: false, name: 'Customer Relationship Management', link: '/crm', subsubmenus: '' },
                 { id: '7', toggle: false, name: 'Customisable Software', link: '/customisable-software', subsubmenus: '' },
-                { id: '8', toggle: false, name: 'Digital Marketing', link: '/digital-marketing', subsubmenus: '' }
+                { id: '8', toggle: false, name: 'Digital Marketing', link: '/digital-marketing', subsubmenus: '' },
+                { id: '9', toggle: false, name: 'Offline Marketing', link: '/offline-marketing', subsubmenus: '' }
+
               ]
           },
           { id: '2', toggle: false, name: 'Portfolio', link: '/portfolio', submenus: '' },
