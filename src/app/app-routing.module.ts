@@ -24,7 +24,13 @@ import { ServicesAppComponent } from './services/app/app.component';
 import { CustomisableSoftwareComponent } from './services/customisable-software/customisable-software.component';
 import { SaasComponent } from './services/saas/saas.component';
 import { OfflineMarketingComponent } from './services/offline-marketing/offline-marketing.component';
-import { VisitingCardsComponent } from './services/visiting-cards/visiting-cards.component';
+import { InstagramComponent } from './services/social-media-marketing/instagram/instagram.component';
+import { FacebookComponent } from './services/social-media-marketing/facebook/facebook.component';
+import { TwitterComponent } from './services/social-media-marketing/twitter/twitter.component';
+import { LinkedinComponent } from './services/social-media-marketing/linkedin/linkedin.component';
+import { YoutubeComponent } from './services/social-media-marketing/youtube/youtube.component';
+import { PinterestComponent } from './services/social-media-marketing/pinterest/pinterest.component';
+import { VideoMarketingComponent } from './services/social-media-marketing/video-marketing/video-marketing.component';
 
 const routes: Routes = [
   // { path: '', redirectTo: '/home', pathMatch: 'full' }, // for defaault redirecting
@@ -51,7 +57,13 @@ const routes: Routes = [
   { path: 'customisable-software', component: CustomisableSoftwareComponent },
   { path: 'saas', component: SaasComponent },
   { path: 'offline-marketing', component: OfflineMarketingComponent },
-  { path: 'visiting-cards', component: VisitingCardsComponent },
+  { path: 'instagram', component: InstagramComponent },
+  { path: 'facebook', component: FacebookComponent },
+  { path: 'twitter', component: TwitterComponent },
+  { path: 'linkedin', component: LinkedinComponent },
+  { path: 'youtube', component: YoutubeComponent },
+  { path: 'pinterest', component: PinterestComponent },
+  { path: 'video-marketing', component: VideoMarketingComponent },
   { path: '**', component: NotFoundComponent },
 ];
 
