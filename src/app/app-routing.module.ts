@@ -23,6 +23,8 @@ import { IotComponent } from './services/iot/iot.component';
 import { ServicesAppComponent } from './services/app/app.component';
 import { CustomisableSoftwareComponent } from './services/customisable-software/customisable-software.component';
 import { SaasComponent } from './services/saas/saas.component';
+import { OfflineMarketingComponent } from './services/offline-marketing/offline-marketing.component';
+import { VisitingCardsComponent } from './services/visiting-cards/visiting-cards.component';
 
 const routes: Routes = [
   // { path: '', redirectTo: '/home', pathMatch: 'full' }, // for defaault redirecting
@@ -48,6 +50,8 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'customisable-software', component: CustomisableSoftwareComponent },
   { path: 'saas', component: SaasComponent },
+  { path: 'offline-marketing', component: OfflineMarketingComponent },
+  { path: 'visiting-cards', component: VisitingCardsComponent },
   { path: '**', component: NotFoundComponent },
 ];
 

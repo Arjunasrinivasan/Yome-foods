@@ -44,6 +44,8 @@ import { SaasComponent } from './services/saas/saas.component';
 import { InfrastructureSolutionComponent } from './services/infrastructure-solution/infrastructure-solution.component';
 import { CyberSecurityComponent } from './services/cyber-security/cyber-security.component';
 import { FormsModule, FormBuilder, ReactiveFormsModule } from '@angular/forms';
+import { OfflineMarketingComponent } from './services/offline-marketing/offline-marketing.component';
+import { VisitingCardsComponent } from './services/visiting-cards/visiting-cards.component';
 
 @NgModule({
   declarations: [
@@ -79,7 +81,9 @@ import { FormsModule, FormBuilder, ReactiveFormsModule } from '@angular/forms';
     CustomisableSoftwareComponent,
     SaasComponent,
     InfrastructureSolutionComponent,
-    CyberSecurityComponent
+    CyberSecurityComponent,
+    OfflineMarketingComponent,
+    VisitingCardsComponent
   ],
   imports: [
     AppRoutingModule,
