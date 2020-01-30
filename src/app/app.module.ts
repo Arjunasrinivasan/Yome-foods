@@ -45,6 +45,13 @@ import { InfrastructureSolutionComponent } from './services/infrastructure-solut
 import { CyberSecurityComponent } from './services/cyber-security/cyber-security.component';
 import { FormsModule, FormBuilder, ReactiveFormsModule } from '@angular/forms';
 import { OfflineMarketingComponent } from './services/offline-marketing/offline-marketing.component';
+import { InstagramComponent } from './services/social-media-marketing/instagram/instagram.component';
+import { FacebookComponent } from './services/social-media-marketing/facebook/facebook.component';
+import { TwitterComponent } from './services/social-media-marketing/twitter/twitter.component';
+import { YoutubeComponent } from './services/social-media-marketing/youtube/youtube.component';
+import { PinterestComponent } from './services/social-media-marketing/pinterest/pinterest.component';
+import { LinkedinComponent } from './services/social-media-marketing/linkedin/linkedin.component';
+import { VideoMarketingComponent } from './services/social-media-marketing/video-marketing/video-marketing.component';
 
 @NgModule({
   declarations: [
@@ -81,7 +88,14 @@ import { OfflineMarketingComponent } from './services/offline-marketing/offline-
     SaasComponent,
     InfrastructureSolutionComponent,
     CyberSecurityComponent,
-    OfflineMarketingComponent
+    OfflineMarketingComponent,
+    InstagramComponent,
+    FacebookComponent,
+    TwitterComponent,
+    YoutubeComponent,
+    PinterestComponent,
+    LinkedinComponent,
+    VideoMarketingComponent
   ],
   imports: [
     AppRoutingModule,
