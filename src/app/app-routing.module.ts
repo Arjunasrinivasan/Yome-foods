@@ -31,6 +31,10 @@ import { LinkedinComponent } from './services/social-media-marketing/linkedin/li
 import { YoutubeComponent } from './services/social-media-marketing/youtube/youtube.component';
 import { PinterestComponent } from './services/social-media-marketing/pinterest/pinterest.component';
 import { VideoMarketingComponent } from './services/social-media-marketing/video-marketing/video-marketing.component';
+import { ContentMarketingComponent } from './services/online-marketing/content-marketing/content-marketing.component';
+import { LogoDesigningComponent } from './services/online-marketing/logo-designing/logo-designing.component';
+import { BookmarkingComponent } from './services/online-marketing/bookmarking/bookmarking.component';
+import { BloggingComponent } from './services/online-marketing/blogging/blogging.component';
 
 const routes: Routes = [
   // { path: '', redirectTo: '/home', pathMatch: 'full' }, // for defaault redirecting
@@ -64,6 +68,10 @@ const routes: Routes = [
   { path: 'youtube', component: YoutubeComponent },
   { path: 'pinterest', component: PinterestComponent },
   { path: 'video-marketing', component: VideoMarketingComponent },
+  { path: 'content-marketing', component: ContentMarketingComponent },
+  { path: 'logo-designing', component: LogoDesigningComponent },
+  { path: 'bookmarking', component: BookmarkingComponent },
+  { path: 'blogging', component: BloggingComponent },
   { path: '**', component: NotFoundComponent },
 ];
 

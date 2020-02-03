@@ -52,6 +52,10 @@ import { YoutubeComponent } from './services/social-media-marketing/youtube/yout
 import { PinterestComponent } from './services/social-media-marketing/pinterest/pinterest.component';
 import { LinkedinComponent } from './services/social-media-marketing/linkedin/linkedin.component';
 import { VideoMarketingComponent } from './services/social-media-marketing/video-marketing/video-marketing.component';
+import { BloggingComponent } from './services/online-marketing/blogging/blogging.component';
+import { LogoDesigningComponent } from './services/online-marketing/logo-designing/logo-designing.component';
+import { ContentMarketingComponent } from './services/online-marketing/content-marketing/content-marketing.component';
+import { BookmarkingComponent } from './services/online-marketing/bookmarking/bookmarking.component';
 
 @NgModule({
   declarations: [
@@ -95,7 +99,11 @@ import { VideoMarketingComponent } from './services/social-media-marketing/video
     YoutubeComponent,
     PinterestComponent,
     LinkedinComponent,
-    VideoMarketingComponent
+    VideoMarketingComponent,
+    BloggingComponent,
+    LogoDesigningComponent,
+    ContentMarketingComponent,
+    BookmarkingComponent
   ],
   imports: [
     AppRoutingModule,
