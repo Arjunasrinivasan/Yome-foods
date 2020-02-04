@@ -74,7 +74,10 @@ export class HeaderComponent implements OnInit {
                 },
                 {
                   id: '1', toggle: false, name: 'Offline Marketing', link: '/offline-marketing', subsubmenus: [
-                    { id: '0', toggle: false, name: 'Visiting Cards', link: '/visiting-cards' }
+                    { id: '0', toggle: false, name: 'Visiting Cards', link: '/visiting-cards' },
+                    { id: '0', toggle: false, name: 'Banners', link: '/banners' },
+                    { id: '0', toggle: false, name: 'Flyers', link: '/flyers' },
+                    { id: '0', toggle: false, name: 'Hoardings', link: '/hoardings' },
                   ]
                 },
                 {

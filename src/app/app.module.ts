@@ -57,6 +57,9 @@ import { LogoDesigningComponent } from './services/online-marketing/logo-designi
 import { ContentMarketingComponent } from './services/online-marketing/content-marketing/content-marketing.component';
 import { BookmarkingComponent } from './services/online-marketing/bookmarking/bookmarking.component';
 import { VisitingCardsComponent } from './services/visiting-cards/visiting-cards.component';
+import { BannerComponent } from './services/offline-marketing/banner/banner.component';
+import { FlyersComponent } from './services/offline-marketing/flyers/flyers.component';
+import { HoardingsComponent } from './services/offline-marketing/hoardings/hoardings.component';
 
 @NgModule({
   declarations: [
@@ -105,7 +108,10 @@ import { VisitingCardsComponent } from './services/visiting-cards/visiting-cards
     LogoDesigningComponent,
     ContentMarketingComponent,
     BookmarkingComponent,
-    VisitingCardsComponent
+    VisitingCardsComponent,
+    BannerComponent,
+    FlyersComponent,
+    HoardingsComponent
   ],
   imports: [
     AppRoutingModule,

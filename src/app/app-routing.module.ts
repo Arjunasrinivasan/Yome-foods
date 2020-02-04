@@ -36,6 +36,9 @@ import { LogoDesigningComponent } from './services/online-marketing/logo-designi
 import { BookmarkingComponent } from './services/online-marketing/bookmarking/bookmarking.component';
 import { BloggingComponent } from './services/online-marketing/blogging/blogging.component';
 import { VisitingCardsComponent } from './services/visiting-cards/visiting-cards.component';
+import { BannerComponent } from './services/offline-marketing/banner/banner.component';
+import { FlyersComponent } from './services/offline-marketing/flyers/flyers.component';
+import { HoardingsComponent } from './services/offline-marketing/hoardings/hoardings.component';
 
 const routes: Routes = [
   // { path: '', redirectTo: '/home', pathMatch: 'full' }, // for defaault redirecting
@@ -74,6 +77,9 @@ const routes: Routes = [
   { path: 'bookmarking', component: BookmarkingComponent },
   { path: 'blogging', component: BloggingComponent },
   { path: 'visiting-cards', component: VisitingCardsComponent },
+  { path: 'banners', component: BannerComponent },
+  { path: 'flyers', component: FlyersComponent },
+  { path: 'hoardings', component: HoardingsComponent },
   { path: '**', component: NotFoundComponent },
 ];
 
