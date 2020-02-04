@@ -56,6 +56,7 @@ import { BloggingComponent } from './services/online-marketing/blogging/blogging
 import { LogoDesigningComponent } from './services/online-marketing/logo-designing/logo-designing.component';
 import { ContentMarketingComponent } from './services/online-marketing/content-marketing/content-marketing.component';
 import { BookmarkingComponent } from './services/online-marketing/bookmarking/bookmarking.component';
+import { VisitingCardsComponent } from './services/visiting-cards/visiting-cards.component';
 
 @NgModule({
   declarations: [
@@ -103,7 +104,8 @@ import { BookmarkingComponent } from './services/online-marketing/bookmarking/bo
     BloggingComponent,
     LogoDesigningComponent,
     ContentMarketingComponent,
-    BookmarkingComponent
+    BookmarkingComponent,
+    VisitingCardsComponent
   ],
   imports: [
     AppRoutingModule,

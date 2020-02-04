@@ -35,6 +35,7 @@ import { ContentMarketingComponent } from './services/online-marketing/content-m
 import { LogoDesigningComponent } from './services/online-marketing/logo-designing/logo-designing.component';
 import { BookmarkingComponent } from './services/online-marketing/bookmarking/bookmarking.component';
 import { BloggingComponent } from './services/online-marketing/blogging/blogging.component';
+import { VisitingCardsComponent } from './services/visiting-cards/visiting-cards.component';
 
 const routes: Routes = [
   // { path: '', redirectTo: '/home', pathMatch: 'full' }, // for defaault redirecting
@@ -72,6 +73,7 @@ const routes: Routes = [
   { path: 'logo-designing', component: LogoDesigningComponent },
   { path: 'bookmarking', component: BookmarkingComponent },
   { path: 'blogging', component: BloggingComponent },
+  { path: 'visiting-cards', component: VisitingCardsComponent },
   { path: '**', component: NotFoundComponent },
 ];
 
