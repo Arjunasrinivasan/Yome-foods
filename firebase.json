@@ -14,6 +14,21 @@
           "destination": "/index.html"
         }
       ]
+    },
+    {
+      "site": "yomefoods-site",
+      "public": "dist/startp-ng",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
     }
   ]
 }
