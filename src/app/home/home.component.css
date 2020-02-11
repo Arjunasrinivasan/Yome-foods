@@ -1,0 +1,20 @@
+#line {
+    height: 100%;
+    width: 1px;
+    display: inline-block;
+    background-color: black;
+    margin: 0px 70px 0 70px;
+}
+
+.boxes-area {
+    background: rgb(247, 251, 249);
+}
+
+
+.boxes-area .row {
+    padding: 27px;
+}
+
+.boxes-area h3, p {
+    text-align: center;
+}
