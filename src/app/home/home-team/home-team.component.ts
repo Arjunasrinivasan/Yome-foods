@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 import { environment } from '../../../environments/environment';
+import { ArrowRight, AlignRight } from 'angular-feather/icons';
 
 @Component({
   selector: 'app-team-home',
