@@ -1,4 +1,21 @@
 .fa {
  color: green;
- margin-right: 10px;
+ 
+ position: absolute;
+ font-size: 20px;
+
+ 
+ 
+ 
+}
+.fa.fa-mobile{
+
+    margin-left: 10px;
+    
+}
+span{
+   display: inline-block;
+   margin-left: 30px;
+   
+   
 }
