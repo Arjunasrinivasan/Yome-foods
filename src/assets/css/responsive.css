@@ -20,6 +20,11 @@
   .navbar-light .navbar-brand img {
     max-width: 100px;
   }
+
+  #line {
+   border: 0px solid !important;
+   background: none;
+  }
   .btn {
     font-size: 13px;
     padding: 13px 33px;
