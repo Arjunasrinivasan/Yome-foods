@@ -1,3 +1,18 @@
+
+.fa {
+ color: green;
+ position: absolute;
+ font-size: 20px;
+}
+.fa.fa-mobile{
+
+    margin-left: 10px;
+    
+}
+span{
+   display: inline-block;
+   margin-left: 30px;
+}
 #line {
     height: 100%;
     width: 1px;
@@ -5,16 +20,12 @@
     background-color: rgb(206, 202, 202);
     margin: 0px 70px 0 70px;
 }
-
 .boxes-area {
     background: rgb(247, 251, 249);
 }
-
-
 .boxes-area .row {
     padding: 27px;
 }
-
 .boxes-area h3, p {
     text-align: center;
 }
