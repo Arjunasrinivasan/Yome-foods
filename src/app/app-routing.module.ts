@@ -39,7 +39,7 @@ import { VisitingCardsComponent } from './services/visiting-cards/visiting-cards
 import { BannerComponent } from './services/offline-marketing/banner/banner.component';
 import { FlyersComponent } from './services/offline-marketing/flyers/flyers.component';
 import { HoardingsComponent } from './services/offline-marketing/hoardings/hoardings.component';
-
+import { CareersComponent } from './careers/careers.component';
 const routes: Routes = [
   // { path: '', redirectTo: '/home', pathMatch: 'full' }, // for defaault redirecting
   { path: '', component: HomeComponent },
@@ -80,6 +80,7 @@ const routes: Routes = [
   { path: 'banners', component: BannerComponent },
   { path: 'flyers', component: FlyersComponent },
   { path: 'hoardings', component: HoardingsComponent },
+  { path: 'careers', component: CareersComponent },
   { path: '**', component: NotFoundComponent },
 ];
 
