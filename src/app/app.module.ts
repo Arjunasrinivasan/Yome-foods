@@ -41,6 +41,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ServicesAppComponent } from './services/app/app.component';
 import { CustomisableSoftwareComponent } from './services/customisable-software/customisable-software.component';
 import { SaasComponent } from './services/saas/saas.component';
+import { CareersComponent } from './careers/careers.component';
 import { InfrastructureSolutionComponent } from './services/infrastructure-solution/infrastructure-solution.component';
 import { CyberSecurityComponent } from './services/cyber-security/cyber-security.component';
 import { FormsModule, FormBuilder, ReactiveFormsModule } from '@angular/forms';
@@ -113,7 +114,8 @@ import { WorkStrategyComponent } from './work-strategy/work-strategy.component';
     BannerComponent,
     FlyersComponent,
     HoardingsComponent,
-    WorkStrategyComponent
+    WorkStrategyComponent,
+    CareersComponent
   ],
   imports: [
     AppRoutingModule,

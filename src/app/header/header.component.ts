@@ -178,6 +178,7 @@ export class HeaderComponent implements OnInit {
           },
           { id: '2', toggle: false, name: 'Portfolio', link: '/portfolio', submenus: '' },
           { id: '3', toggle: false, name: 'About Us', link: '/about', submenus: '' },
+          { id: '3', toggle: false, name: 'Careers', link: '/careers', submenus: '' },
           { id: '4', toggle: false, name: 'Contact Us', link: '/contact', submenus: '' }
         ]
 
