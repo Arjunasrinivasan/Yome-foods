@@ -26,6 +26,79 @@ span{
 .boxes-area .row {
     padding: 27px;
 }
+
 .boxes-area h3, p {
     text-align: center;
 }
+
+
+.container-info {
+    max-width: 100%;
+  }
+
+  .column {
+      width: 25%;
+  }
+
+  .row {
+      margin: 0px;
+  }
+
+  .box-description h2 {
+      color: #ffbe22 !important;
+      font-weight: 900;
+      font-size: 4.4em;
+  }
+
+  .box-description .text-title {
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: 30;
+      padding: 5px 10px 4px 0;
+  }
+
+  .box-description {
+      padding: 30px 40px 20px 30px;
+      text-align: left;
+  }
+
+  .column:first-child {
+      text-align: left;
+      background: #212121 !important;
+      color: white;
+  }
+  .column:first-child h3 {
+      color: #ffbe22 !important;
+      font-size: 1.8rem;
+      padding: 8px 0px;
+      text-align: left;
+  }
+
+  .column .box-description p {
+      text-align: left;
+  }
+
+  @media only screen and (max-width: 470px){
+    .column {
+        width: 100%;
+        float: left;
+    }
+
+    .box-description {
+        padding: 30px 40px 0px 30px;
+    }
+}
+
+@media only screen and (min-width: 471px){
+    .column {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 891px){
+    .column {
+        width: 25%;
+        float: left;
+    }
+} 
