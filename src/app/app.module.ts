@@ -61,6 +61,7 @@ import { VisitingCardsComponent } from './services/visiting-cards/visiting-cards
 import { BannerComponent } from './services/offline-marketing/banner/banner.component';
 import { FlyersComponent } from './services/offline-marketing/flyers/flyers.component';
 import { HoardingsComponent } from './services/offline-marketing/hoardings/hoardings.component';
+import { ValuePracticesComponent } from './home/value-practices/value-practices.component';
 
 @NgModule({
   declarations: [
@@ -113,7 +114,8 @@ import { HoardingsComponent } from './services/offline-marketing/hoardings/hoard
     BannerComponent,
     FlyersComponent,
     HoardingsComponent,
-    CareersComponent
+    CareersComponent,
+    ValuePracticesComponent
   ],
   imports: [
     AppRoutingModule,
