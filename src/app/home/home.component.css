@@ -20,14 +20,14 @@ span{
     background-color: rgb(206, 202, 202);
     margin: 0px 70px 0 70px;
 }
-.boxes-area {
+.feature-area {
     background: rgb(247, 251, 249);
 }
-.boxes-area .row {
+.feature-area .row {
     padding: 27px;
 }
 
-.boxes-area h3, p {
+.feature-area {
     text-align: center;
 }
 
