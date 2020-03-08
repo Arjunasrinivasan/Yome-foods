@@ -60,6 +60,7 @@ import { VisitingCardsComponent } from './services/visiting-cards/visiting-cards
 import { BannerComponent } from './services/offline-marketing/banner/banner.component';
 import { FlyersComponent } from './services/offline-marketing/flyers/flyers.component';
 import { HoardingsComponent } from './services/offline-marketing/hoardings/hoardings.component';
+import { WorkStrategyComponent } from './work-strategy/work-strategy.component';
 
 @NgModule({
   declarations: [
@@ -111,7 +112,8 @@ import { HoardingsComponent } from './services/offline-marketing/hoardings/hoard
     VisitingCardsComponent,
     BannerComponent,
     FlyersComponent,
-    HoardingsComponent
+    HoardingsComponent,
+    WorkStrategyComponent
   ],
   imports: [
     AppRoutingModule,
