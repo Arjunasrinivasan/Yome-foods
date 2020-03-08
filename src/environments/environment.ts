@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  BrandName: 'Newlin Infotech',
+  BrandName: 'Yome Foods',
   baseUrl: 'https://us-central1-newlininfotech-dc00e.cloudfunctions.net/'
 };
 
