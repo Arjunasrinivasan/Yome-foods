@@ -40,6 +40,8 @@ import { BannerComponent } from './services/offline-marketing/banner/banner.comp
 import { FlyersComponent } from './services/offline-marketing/flyers/flyers.component';
 import { HoardingsComponent } from './services/offline-marketing/hoardings/hoardings.component';
 import { CareersComponent } from './careers/careers.component';
+import { WebsiteCreationComponent } from './services/online-marketing/website-creation/website-creation.component';
+import { PromotionalCardsComponent } from './services/offline-marketing/promotional-cards/promotional-cards.component';
 const routes: Routes = [
   // { path: '', redirectTo: '/home', pathMatch: 'full' }, // for defaault redirecting
   { path: '', component: HomeComponent },
@@ -81,6 +83,8 @@ const routes: Routes = [
   { path: 'flyers', component: FlyersComponent },
   { path: 'hoardings', component: HoardingsComponent },
   { path: 'careers', component: CareersComponent },
+  { path: 'website-creation', component: WebsiteCreationComponent },
+  { path: 'promotional-cards', component: PromotionalCardsComponent },
   { path: '**', component: NotFoundComponent },
 ];
 

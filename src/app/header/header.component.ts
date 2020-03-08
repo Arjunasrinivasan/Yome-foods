@@ -71,6 +71,7 @@ export class HeaderComponent implements OnInit {
                       { id: '2', toggle: false, name: 'Content Marketing', link: '/content-marketing', subsubmenus: '' },
                       { id: '3', toggle: false, name: 'Bookmarking', link: '/bookmarking', subsubmenus: '' },
                       { id: '4', toggle: false, name: 'Video marketing', link: '/video-marketing' },
+                      { id: '4', toggle: false, name: 'Website creation', link: '/website-creation' },
                     ]
                 },
                 {
@@ -90,7 +91,8 @@ export class HeaderComponent implements OnInit {
                     { id: '1', toggle: false, name: 'Banners', link: '/banners' },
                     { id: '2', toggle: false, name: 'Flyers', link: '/flyers' },
                     { id: '3', toggle: false, name: 'Hoardings', link: '/hoardings' },
-                    { id: '4', toggle: false, name: 'Promotional Events', link: '/promotional-events' },
+                    { id: '4', toggle: false, name: 'Promotional Cards', link: '/promotional-cards' },
+                    { id: '5', toggle: false, name: 'Promotional Events', link: '/promotional-events' },
                   ]
                 },
               ],

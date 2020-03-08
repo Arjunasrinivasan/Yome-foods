@@ -62,6 +62,8 @@ import { BannerComponent } from './services/offline-marketing/banner/banner.comp
 import { FlyersComponent } from './services/offline-marketing/flyers/flyers.component';
 import { HoardingsComponent } from './services/offline-marketing/hoardings/hoardings.component';
 import { WorkStrategyComponent } from './work-strategy/work-strategy.component';
+import { WebsiteCreationComponent } from './services/online-marketing/website-creation/website-creation.component';
+import { PromotionalCardsComponent } from './services/offline-marketing/promotional-cards/promotional-cards.component';
 
 @NgModule({
   declarations: [
@@ -115,7 +117,9 @@ import { WorkStrategyComponent } from './work-strategy/work-strategy.component';
     FlyersComponent,
     HoardingsComponent,
     WorkStrategyComponent,
-    CareersComponent
+    CareersComponent,
+    WebsiteCreationComponent,
+    PromotionalCardsComponent
   ],
   imports: [
     AppRoutingModule,
