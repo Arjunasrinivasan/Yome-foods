@@ -45,7 +45,7 @@ import { CareersComponent } from './careers/careers.component';
 import { InfrastructureSolutionComponent } from './services/infrastructure-solution/infrastructure-solution.component';
 import { CyberSecurityComponent } from './services/cyber-security/cyber-security.component';
 import { FormsModule, FormBuilder, ReactiveFormsModule } from '@angular/forms';
-import { OfflineMarketingComponent } from './services/offline-marketing/offline-marketing.component';
+import { PromotionalEventsComponent } from './services/offline-marketing/promotional-events.component';
 import { InstagramComponent } from './services/social-media-marketing/instagram/instagram.component';
 import { FacebookComponent } from './services/social-media-marketing/facebook/facebook.component';
 import { TwitterComponent } from './services/social-media-marketing/twitter/twitter.component';
@@ -98,7 +98,7 @@ import { WorkStrategyComponent } from './work-strategy/work-strategy.component';
     SaasComponent,
     InfrastructureSolutionComponent,
     CyberSecurityComponent,
-    OfflineMarketingComponent,
+    PromotionalEventsComponent,
     InstagramComponent,
     FacebookComponent,
     TwitterComponent,
