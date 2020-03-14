@@ -42,7 +42,9 @@ import { HoardingsComponent } from './services/offline-marketing/hoardings/hoard
 import { CareersComponent } from './careers/careers.component';
 import { WebsiteCreationComponent } from './services/online-marketing/website-creation/website-creation.component';
 import { PromotionalCardsComponent } from './services/offline-marketing/promotional-cards/promotional-cards.component';
+import { WebAppComponent } from './services/WebApp/WebApp.component';
 import { AnalyticsInsightsComponent } from './services/Analytics-insights/Analytics-insights.component';
+
 const routes: Routes = [
   // { path: '', redirectTo: '/home', pathMatch: 'full' }, // for defaault redirecting
   { path: '', component: HomeComponent },
@@ -86,7 +88,8 @@ const routes: Routes = [
   { path: 'careers', component: CareersComponent },
   { path: 'website-creation', component: WebsiteCreationComponent },
   { path: 'promotional-cards', component: PromotionalCardsComponent },
-  { path: 'Analytics-Insights',component:  AnalyticsInsightsComponent},
+  { path: 'web-app',component:  WebAppComponent},
+  { path: 'analytics-insights',component:  AnalyticsInsightsComponent},
   { path: '**', component: NotFoundComponent },
 ];
 
