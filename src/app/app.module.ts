@@ -65,6 +65,7 @@ import { WorkStrategyComponent } from './work-strategy/work-strategy.component';
 import { WebsiteCreationComponent } from './services/online-marketing/website-creation/website-creation.component';
 import { PromotionalCardsComponent } from './services/offline-marketing/promotional-cards/promotional-cards.component';
 import { WebAppComponent} from './services/WebApp/WebApp.component';
+import { AnalyticsInsightsComponent} from './services/Analytics-insights/Analytics-insights.component';
 
 @NgModule({
   declarations: [
@@ -121,7 +122,8 @@ import { WebAppComponent} from './services/WebApp/WebApp.component';
     CareersComponent,
     WebsiteCreationComponent,
     PromotionalCardsComponent,
-    WebAppComponent
+    WebAppComponent,
+    AnalyticsInsightsComponent
   ],
   imports: [
     AppRoutingModule,
