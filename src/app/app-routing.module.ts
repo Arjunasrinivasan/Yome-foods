@@ -42,6 +42,7 @@ import { HoardingsComponent } from './services/offline-marketing/hoardings/hoard
 import { CareersComponent } from './careers/careers.component';
 import { WebsiteCreationComponent } from './services/online-marketing/website-creation/website-creation.component';
 import { PromotionalCardsComponent } from './services/offline-marketing/promotional-cards/promotional-cards.component';
+import { WebAppComponent } from './services/WebApp/WebApp.component';
 const routes: Routes = [
   // { path: '', redirectTo: '/home', pathMatch: 'full' }, // for defaault redirecting
   { path: '', component: HomeComponent },
@@ -85,6 +86,7 @@ const routes: Routes = [
   { path: 'careers', component: CareersComponent },
   { path: 'website-creation', component: WebsiteCreationComponent },
   { path: 'promotional-cards', component: PromotionalCardsComponent },
+  { path: 'WebApp',component:  WebAppComponent},
   { path: '**', component: NotFoundComponent },
 ];
 
