@@ -1,4 +1,35 @@
 .brand-log {
-    width: 350px;
-    height: 242.3px;
+    width: 160px; 
+    height: auto;
+    border-radius: 5px;
+}
+
+.blog-images img {
+    box-shadow: 0px 0px 3px #ddd;
+}
+
+.single-blog-posts {
+    padding: 14px;
+}
+
+h4 {
+    padding-top: 25px;
+}
+
+@media only screen and (min-width: 228px) and (max-width: 440px) {
+    .column {
+      width: 50%;
+    }
+}
+
+@media only screen and (min-width: 440px) and (max-width: 891px) {
+    .column {
+    width: 50%;
+    }
+}
+
+@media only screen and (min-width: 891px) and (max-width: 1200px) {
+    .column {
+      max-width: 20%;
+    }
 }
