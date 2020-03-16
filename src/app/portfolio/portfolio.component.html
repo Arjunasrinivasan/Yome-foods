@@ -25,109 +25,93 @@
 <section class="blog-area ptb-80">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="single-blog-post">
-                    <div class="blog-image">
-                        <a href="/home">
-                            <img src="assets/img/hike/portfolio/biryani_blues.jpg" alt="image" class="brand-log">
-                        </a>
-                    </div>
-                    <div class="blog-post-content">
-                        <h3><a href="/home">Biryani Blues</a></h3>
-                        <p>Having a balanced diet but with scrumptious finger licking experience is something that sets
-                            unique in the competition. We bring over 250 recipes and over 800 meal plans to choose from.
-                            As a result, our ses are always </p>
-                        <p> shond in terms of choosing the best plan that can meet with their nutritional and delicacy
-                            requirements. The best part of our food delivery system is estomized home delivery services
-                        </p>
-                    </div>
-                </div>
+            <div class="col-lg-12">
+                <h4> Delhi </h4> 
             </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="single-blog-post">
-                    <div class="blog-image">
-                        <a href="/home">
-                            <img src="assets/img/hike/portfolio/bronx.jpeg" alt="image" class="brand-log">
+        </div>
+        <div class="row">
+            <div class="column" *ngFor="let image of delhiImages">
+                <div class="single-blog-posts">
+                    <div class="blog-images">
+                        <a href="{{ image.link }}" target="_blank">
+                            <img src="{{ image.image }}" alt="image" class="brand-log">
                         </a>
-                    </div>
-                    <div class="blog-post-content">
-                        <h3><a href="/home">Bronx</a></h3>
-                        <p>Cloudword is newlin infotech answer to the need of a perfect interactive word book app for
-                            iPad. What makes CloudWord Office so perfect is an attractive UI complemented with super
-                            interactive animation capabilities which makes for an all around package made even more
-                            enticing thanks to salient features such as PDF annotations, presentation creation,
-                            drawings, acronyms, terms & definitions, audio recordings and more.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="single-blog-post">
-                    <div class="blog-image">
-                        <a href="/home">
-                            <img src="assets/img/hike/portfolio/eggers-house.jpeg" alt="image" class="brand-log">
-                        </a>
-                    </div>
-                    <div class="blog-post-content">
-                        <h3><a href="/home">Eggers House</a></h3>
-                        <p>STARS Health Care fulfils the need for an innovative Clinical Research Application for the
-                            Healthcare industry where renowned doctors across all regions are provided with a
-                            distinctive online collaborative research system. We take care of every organization’s goal
-                            that is to exhibit its services in an irresistible fashion by having developed a
-                            multi-faceted and technically advanced website for you.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="single-blog-post">
-                    <div class="blog-image">
-                        <a href="/home">
-                            <img src="assets/img/hike/portfolio/insta-pizza.png" alt="image" class="brand-log">
-                        </a>
-                    </div>
-                    <div class="blog-post-content">
-                        <h3><a href="/home">Insta Pizza</a></h3>
-                        <p>Carbox, being the premier distributor of not only auto spare parts and accessories but also
-                            that of O.E.Original auto spare parts in the GCC region more than ensures that you can
-                            always rely on it to get the very best products in today’s highly competitive market.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="single-blog-post">
-                    <div class="blog-image">
-                        <a href="/home">
-                            <img src="assets/img/hike/portfolio/khaaja-chowk.png" alt="image" class="brand-log">
-                        </a>
-                    </div>
-                    <div class="blog-post-content">
-                        <h3><a href="/home">Khaaja Chowk</a></h3>
-                        <p>MP Rewards is an application designed so as to make your Millpledge product points simpler
-                            and quicker to collect. It also allows your rewards to be accessed, managed and redeem
-                            easily. Setting up multiple users for any of your practices has never been simpler and only
-                            your smartphone is required for adding points to your account by scanning the unique
-                            Millpledge barcode on each product.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="single-blog-post">
-                    <div class="blog-image">
-                        <a href="/home">
-                            <img src="assets/img/hike/portfolio/tossin-pizza.jpg" alt="image" class="brand-log">
-                        </a>
-                    </div>
-                    <div class="blog-post-content">
-                        <h3><a href="/home">Tossin Pizza</a></h3>
-                        <p>Cookpack is an ambitious and revolutionary project expanding its footprints in Hong Kong but
-                            it is to capitalize the market globally </p>
-                        <p>The Magento based online food catering system works on the principle of ensuring a healthy
-                            diet andmeal plans for millenials Us of Magento based e-Commerce platform une personalized
-                            customization of me per the changing requirements of various chent</p>
-                        <p>Coolpack system works keeping in mind the specific tenets required for a healthy living that
-                            revolves around</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h4>Bengaluru</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column" *ngFor="let image of bengaluruImages">
+                <div class="single-blog-posts">
+                    <div class="blog-images">
+                        <a href="{{ image.link }}" target="_blank">
+                            <img src="{{ image.image }}" alt="image" class="brand-log">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h4>Mumbai</h4> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="column" *ngFor="let image of mumbaiImages">
+                <div class="single-blog-posts">
+                    <div class="blog-images">
+                        <a href="{{ image.link }}" target="_blank">
+                            <img src="{{ image.image }}" alt="image" class="brand-log">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h4>Dubai</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column" *ngFor="let image of dubaiImages">
+                <div class="single-blog-posts">
+                    <div class="blog-images">
+                        <a href="{{ image.link }}" target="_blank">
+                            <img src="{{ image.image }}" alt="image" class="brand-log">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h4>Abu dhabi</h4> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="column" *ngFor="let image of abudhabiImages">
+                <div class="single-blog-posts">
+                    <div class="blog-images">
+                        <a href="{{ image.link }}" target="_blank">
+                            <img src="{{ image.image }}" alt="image" class="brand-log">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div> <!-- End of Container-->
 </section>
+
+
