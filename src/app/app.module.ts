@@ -65,7 +65,8 @@ import { WorkStrategyComponent } from './work-strategy/work-strategy.component';
 import { WebsiteCreationComponent } from './services/online-marketing/website-creation/website-creation.component';
 import { PromotionalCardsComponent } from './services/offline-marketing/promotional-cards/promotional-cards.component';
 import { WebAppComponent} from './services/WebApp/WebApp.component';
-import { AnalyticsInsightsComponent} from './services/Analytics-insights/Analytics-insights.component';
+import { AnalyticsInsightsComponent} from './services/analytics-insights/analytics-insights.component';
+import { SocialMarketingComponent } from './services/social-marketing/social-marketing.component';
 
 @NgModule({
   declarations: [
@@ -123,7 +124,8 @@ import { AnalyticsInsightsComponent} from './services/Analytics-insights/Analyti
     WebsiteCreationComponent,
     PromotionalCardsComponent,
     WebAppComponent,
-    AnalyticsInsightsComponent
+    AnalyticsInsightsComponent,
+    SocialMarketingComponent
   ],
   imports: [
     AppRoutingModule,

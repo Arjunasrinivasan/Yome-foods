@@ -43,7 +43,8 @@ import { CareersComponent } from './careers/careers.component';
 import { WebsiteCreationComponent } from './services/online-marketing/website-creation/website-creation.component';
 import { PromotionalCardsComponent } from './services/offline-marketing/promotional-cards/promotional-cards.component';
 import { WebAppComponent } from './services/WebApp/WebApp.component';
-import { AnalyticsInsightsComponent } from './services/Analytics-insights/Analytics-insights.component';
+import { AnalyticsInsightsComponent } from './services/analytics-insights/analytics-insights.component';
+import { SocialMarketingComponent } from './services/social-marketing/social-marketing.component';
 
 const routes: Routes = [
   // { path: '', redirectTo: '/home', pathMatch: 'full' }, // for defaault redirecting
@@ -90,6 +91,7 @@ const routes: Routes = [
   { path: 'promotional-cards', component: PromotionalCardsComponent },
   { path: 'web-app',component:  WebAppComponent},
   { path: 'analytics-insights',component:  AnalyticsInsightsComponent},
+  { path: 'social-marketing',component:  SocialMarketingComponent},
   { path: '**', component: NotFoundComponent },
 ];
 

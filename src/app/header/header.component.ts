@@ -97,7 +97,7 @@ export class HeaderComponent implements OnInit {
                 },
                 { id: '3', toggle: false, name: 'Direct Marketing', link: '/direct-marketing', subsubmenus: '' },
                 { id: '4', toggle: false, name: 'Content production', link: '/content-production', subsubmenus: '' },
-                { id: '5', toggle: false, name: 'Social Marketing', link: '/offline-marketing', subsubmenus: '' },
+                { id: '5', toggle: false, name: 'Social Marketing', link: '/social-marketing', subsubmenus: '' },
                 { id: '6', toggle: false, name: 'Search Engine Optimization', link: '/SEO', subsubmenus: '' },
                 { id: '7', toggle: false, name: 'Mobile Marketing', link: '/mobile-marketing', subsubmenus: '' },
                 { id: '8', toogle: false, name: 'Paid Advertising Using AdWords', link: '/Paid-Ad', subsubmenus: '' },
