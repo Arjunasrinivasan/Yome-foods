@@ -68,6 +68,7 @@ import { WebAppComponent} from './services/web-app/web-app.component';
 import { AnalyticsInsightsComponent} from './services/analytics-insights/analytics-insights.component';
 import { SocialMarketingComponent } from './services/social-marketing/social-marketing.component';
 import { ContentProductionComponent } from './services/content-production/content-production.component';
+import { DirectMarketingComponent } from './services/direct-marketing/direct-marketing.component';
 
 @NgModule({
   declarations: [
@@ -127,7 +128,8 @@ import { ContentProductionComponent } from './services/content-production/conten
     WebAppComponent,
     AnalyticsInsightsComponent,
     SocialMarketingComponent,
-    ContentProductionComponent
+    ContentProductionComponent,
+    DirectMarketingComponent
   ],
   imports: [
     AppRoutingModule,
