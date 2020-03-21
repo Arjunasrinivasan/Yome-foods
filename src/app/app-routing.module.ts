@@ -42,7 +42,7 @@ import { HoardingsComponent } from './services/offline-marketing/hoardings/hoard
 import { CareersComponent } from './careers/careers.component';
 import { WebsiteCreationComponent } from './services/online-marketing/website-creation/website-creation.component';
 import { PromotionalCardsComponent } from './services/offline-marketing/promotional-cards/promotional-cards.component';
-import { WebAppComponent } from './services/WebApp/WebApp.component';
+import { WebAppComponent } from './services/web-app/web-app.component';
 import { AnalyticsInsightsComponent } from './services/analytics-insights/analytics-insights.component';
 import { SocialMarketingComponent } from './services/social-marketing/social-marketing.component';
 import { ContentProductionComponent } from './services/content-production/content-production.component';

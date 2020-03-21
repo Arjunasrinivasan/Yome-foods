@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'WebApp',
-  templateUrl: './WebApp.component.html',
-  styleUrls: ['./WebApp.component.css']
+  templateUrl: './web-app.component.html',
+  styleUrls: ['./web-app.component.css']
 })
 export class WebAppComponent implements OnInit {
 
