@@ -45,6 +45,7 @@ import { PromotionalCardsComponent } from './services/offline-marketing/promotio
 import { WebAppComponent } from './services/WebApp/WebApp.component';
 import { AnalyticsInsightsComponent } from './services/analytics-insights/analytics-insights.component';
 import { SocialMarketingComponent } from './services/social-marketing/social-marketing.component';
+import { ContentProductionComponent } from './services/content-production/content-production.component';
 
 const routes: Routes = [
   // { path: '', redirectTo: '/home', pathMatch: 'full' }, // for defaault redirecting
@@ -92,6 +93,7 @@ const routes: Routes = [
   { path: 'web-app',component:  WebAppComponent},
   { path: 'analytics-insights',component:  AnalyticsInsightsComponent},
   { path: 'social-marketing',component:  SocialMarketingComponent},
+  { path: 'content-production',component: ContentProductionComponent},
   { path: '**', component: NotFoundComponent },
 ];
 

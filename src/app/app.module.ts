@@ -67,6 +67,7 @@ import { PromotionalCardsComponent } from './services/offline-marketing/promotio
 import { WebAppComponent} from './services/WebApp/WebApp.component';
 import { AnalyticsInsightsComponent} from './services/analytics-insights/analytics-insights.component';
 import { SocialMarketingComponent } from './services/social-marketing/social-marketing.component';
+import { ContentProductionComponent } from './services/content-production/content-production.component';
 
 @NgModule({
   declarations: [
@@ -125,7 +126,8 @@ import { SocialMarketingComponent } from './services/social-marketing/social-mar
     PromotionalCardsComponent,
     WebAppComponent,
     AnalyticsInsightsComponent,
-    SocialMarketingComponent
+    SocialMarketingComponent,
+    ContentProductionComponent
   ],
   imports: [
     AppRoutingModule,
