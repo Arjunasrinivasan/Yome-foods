@@ -47,6 +47,7 @@ import { AnalyticsInsightsComponent } from './services/analytics-insights/analyt
 import { SocialMarketingComponent } from './services/social-marketing/social-marketing.component';
 import { ContentProductionComponent } from './services/content-production/content-production.component';
 import { DirectMarketingComponent } from './services/direct-marketing/direct-marketing.component';
+import { DesignAndBrandingComponent } from './services/design-and-branding/design-and-branding.component';
 
 const routes: Routes = [
   // { path: '', redirectTo: '/home', pathMatch: 'full' }, // for defaault redirecting
@@ -96,6 +97,7 @@ const routes: Routes = [
   { path: 'social-marketing',component:  SocialMarketingComponent},
   { path: 'content-production',component: ContentProductionComponent},
   { path: 'direct-marketing',component: DirectMarketingComponent},
+  { path: 'design-and-branding',component: DesignAndBrandingComponent},
   { path: '**', component: NotFoundComponent },
 ];
 
