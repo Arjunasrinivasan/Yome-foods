@@ -100,7 +100,7 @@ export class HeaderComponent implements OnInit {
                 { id: '5', toggle: false, name: 'Social Marketing', link: '/social-marketing', subsubmenus: '' },
                 { id: '6', toggle: false, name: 'Search Engine Optimization', link: '/seo', subsubmenus: '' },
                 { id: '7', toggle: false, name: 'Mobile Marketing', link: '/mobile-marketing', subsubmenus: '' },
-                { id: '8', toogle: false, name: 'Paid Advertising Using AdWords', link: '/Paid-Ad', subsubmenus: '' },
+                { id: '8', toogle: false, name: 'Paid Advertising Using AdWords', link: '/paid-advertising', subsubmenus: '' },
                 { id: '9', toggle: false, name: 'Analytics & Insights', link: '/analytics-insights', subsubmenus: '' },
                 { id: '10', toggle: false, name: 'Web and App development', link: '/web-app', subsubmenus: '' },
                 { id: '11', toggle: false, name: 'Design & Branding', link: '/design-and-branding', subsubmenus: '' },
