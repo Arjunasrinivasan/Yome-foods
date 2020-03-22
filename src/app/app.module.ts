@@ -72,7 +72,7 @@ import { DirectMarketingComponent } from './services/direct-marketing/direct-mar
 import { DesignAndBrandingComponent } from './services/design-and-branding/design-and-branding.component';
 import { SEOComponent } from './services/seo/seo.component';
 import { PaidAdvertisingComponent } from './services/paid-advertising/paid-advertising.component';
-import { MobileMarkertingComponent } from './services/mobile-markerting/mobile-markerting.component';
+import { MobileMarketingComponent } from './services/mobile-marketing/mobile-marketing.component';
 
 @NgModule({
   declarations: [
@@ -136,7 +136,7 @@ import { MobileMarkertingComponent } from './services/mobile-markerting/mobile-m
     DirectMarketingComponent,
     DesignAndBrandingComponent,
     PaidAdvertisingComponent,
-    MobileMarkertingComponent,
+    MobileMarketingComponent,
     SEOComponent
   ],
   imports: [

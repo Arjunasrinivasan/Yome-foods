@@ -50,7 +50,7 @@ import { DirectMarketingComponent } from './services/direct-marketing/direct-mar
 import { DesignAndBrandingComponent } from './services/design-and-branding/design-and-branding.component';
 import { SEOComponent } from './services/seo/seo.component';
 import { PaidAdvertisingComponent } from './services/paid-advertising/paid-advertising.component';
-import { MobileMarkertingComponent } from './services/mobile-markerting/mobile-markerting.component';
+import { MobileMarketingComponent } from './services/mobile-marketing/mobile-marketing.component';
 
 const routes: Routes = [
   // { path: '', redirectTo: '/home', pathMatch: 'full' }, // for defaault redirecting
@@ -103,7 +103,7 @@ const routes: Routes = [
   { path: 'design-and-branding',component: DesignAndBrandingComponent},
   { path: 'seo', component: SEOComponent },
   { path: 'paid-advertising', component: PaidAdvertisingComponent },
-  { path: 'mobile-marketing', component: MobileMarkertingComponent},
+  { path: 'mobile-marketing', component: MobileMarketingComponent},
   { path: '**', component: NotFoundComponent },
 ];
 
