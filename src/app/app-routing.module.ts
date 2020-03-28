@@ -51,6 +51,7 @@ import { DesignAndBrandingComponent } from './services/design-and-branding/desig
 import { SEOComponent } from './services/seo/seo.component';
 import { PaidAdvertisingComponent } from './services/paid-advertising/paid-advertising.component';
 import { MobileMarketingComponent } from './services/mobile-marketing/mobile-marketing.component';
+import { AffiliateMarketingComponent } from './services/affiliate-marketing/affiliate-marketing.component';
 
 const routes: Routes = [
   // { path: '', redirectTo: '/home', pathMatch: 'full' }, // for defaault redirecting
@@ -104,6 +105,7 @@ const routes: Routes = [
   { path: 'seo', component: SEOComponent },
   { path: 'paid-advertising', component: PaidAdvertisingComponent },
   { path: 'mobile-marketing', component: MobileMarketingComponent},
+  { path: 'affiliate-marketing', component: AffiliateMarketingComponent},
   { path: '**', component: NotFoundComponent },
 ];
 
