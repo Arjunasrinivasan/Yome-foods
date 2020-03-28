@@ -53,6 +53,7 @@ import { PaidAdvertisingComponent } from './services/paid-advertising/paid-adver
 import { MobileMarketingComponent } from './services/mobile-marketing/mobile-marketing.component';
 import { AffiliateMarketingComponent } from './services/affiliate-marketing/affiliate-marketing.component';
 import { OnlinePrComponent } from './services/online-pr/online-pr.component';
+import { BusinessConsultingComponent } from './services/business-consulting/business-consulting.component';
 
 const routes: Routes = [
   // { path: '', redirectTo: '/home', pathMatch: 'full' }, // for defaault redirecting
@@ -107,6 +108,7 @@ const routes: Routes = [
   { path: 'paid-advertising', component: PaidAdvertisingComponent },
   { path: 'mobile-marketing', component: MobileMarketingComponent},
   { path: 'affiliate-marketing', component: AffiliateMarketingComponent},
+  { path: 'business-consulting', component: BusinessConsultingComponent},
   { path: 'online-pr', component: OnlinePrComponent},
   { path: '**', component: NotFoundComponent },
 ];

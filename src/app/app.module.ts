@@ -75,6 +75,7 @@ import { PaidAdvertisingComponent } from './services/paid-advertising/paid-adver
 import { MobileMarketingComponent } from './services/mobile-marketing/mobile-marketing.component';
 import { AffiliateMarketingComponent } from './services/affiliate-marketing/affiliate-marketing.component';
 import { OnlinePrComponent } from './services/online-pr/online-pr.component';
+import { BusinessConsultingComponent } from './services/business-consulting/business-consulting.component';
 
 @NgModule({
   declarations: [
@@ -141,7 +142,8 @@ import { OnlinePrComponent } from './services/online-pr/online-pr.component';
     MobileMarketingComponent,
     SEOComponent,
     AffiliateMarketingComponent,
-    OnlinePrComponent
+    OnlinePrComponent,
+    BusinessConsultingComponent
   ],
   imports: [
     AppRoutingModule,
