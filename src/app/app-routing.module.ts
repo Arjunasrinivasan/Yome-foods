@@ -48,6 +48,9 @@ import { SocialMarketingComponent } from './services/social-marketing/social-mar
 import { ContentProductionComponent } from './services/content-production/content-production.component';
 import { DirectMarketingComponent } from './services/direct-marketing/direct-marketing.component';
 import { DesignAndBrandingComponent } from './services/design-and-branding/design-and-branding.component';
+import { SEOComponent } from './services/seo/seo.component';
+import { PaidAdvertisingComponent } from './services/paid-advertising/paid-advertising.component';
+import { MobileMarketingComponent } from './services/mobile-marketing/mobile-marketing.component';
 
 const routes: Routes = [
   // { path: '', redirectTo: '/home', pathMatch: 'full' }, // for defaault redirecting
@@ -98,6 +101,9 @@ const routes: Routes = [
   { path: 'content-production',component: ContentProductionComponent},
   { path: 'direct-marketing',component: DirectMarketingComponent},
   { path: 'design-and-branding',component: DesignAndBrandingComponent},
+  { path: 'seo', component: SEOComponent },
+  { path: 'paid-advertising', component: PaidAdvertisingComponent },
+  { path: 'mobile-marketing', component: MobileMarketingComponent},
   { path: '**', component: NotFoundComponent },
 ];
 
