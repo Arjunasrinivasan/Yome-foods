@@ -6,5 +6,11 @@ export interface Message {
     phoneNumber?: string,
     ourServices?: string,
     message?: string,
+    date?: string,
+    currentcity?: string,
+    commitments?: string,
+    working_hours?: string,
+    Internship_role?: string,
+    Benefits?: string,
     timestamp?: Date
 }

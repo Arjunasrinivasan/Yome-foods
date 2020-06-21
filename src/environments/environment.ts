@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   BrandName: 'Newlin Infotech',
-  baseUrl: 'https://us-central1-newlininfotech-dc00e.cloudfunctions.net/'
+  baseUrl: 'https://us-central1-fireauth-9381e.cloudfunctions.net/'
 };
 
 /*

@@ -1,0 +1,76 @@
+
+@media only screen and (max-width: 1200px) and (min-width: 320px) 
+{
+    #mobile_map
+    {
+        display: block!important;
+    }
+    #window_map
+    {
+        display: none!important;
+    }
+
+   .mob_sp
+   {
+    padding-bottom: 1px!important;
+   } 
+}
+#jumb{
+    background-color: #15202c;
+    margin-top: 100px ;   
+}
+#main{
+    text-align: center;
+}
+#info{
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.jumbcontainer{
+    color: white;
+
+}
+#desc{
+    color: gray;
+    margin-top: 10px;
+  
+}
+#cols{
+    margin-left:20%;
+    margin-right:20%;
+    color: white;    
+}
+#select:focus{
+    border: 1px solid green;
+    box-shadow: none;
+    
+}
+#head {
+    margin-top: 40px;
+}
+#quals{
+    font-size: large;
+    margin-left: -10px; 
+}
+#ans{
+    color: green;
+}
+#content{
+       font-size:14px;
+}
+#header{
+    font-size: 20px;
+}
+li{
+    margin-bottom: 10px;
+       
+}
+#conv{
+    margin-left: 30px;
+
+}
+li,ol{
+    color: #6084a4;
+}
