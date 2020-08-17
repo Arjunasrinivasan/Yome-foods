@@ -1,0 +1,41 @@
+<div class="d-table-cell">
+    <div class="container">
+        <h2>Blog</h2>
+    </div>
+</div>
+
+
+<div class="shape1"><img src="assets/img/hike/images/shape1.png" alt="shape"></div>
+<div class="shape2 rotateme"><img src="assets/img/hike/images/shape2.svg" alt="shape"></div>
+<div class="shape3"><img src="assets/img/hike/images/shape3.svg" alt="shape"></div>
+<div class="shape4"><img src="assets/img/hike/images/shape4.svg" alt="shape"></div>
+<div class="shape5"><img src="assets/img/hike/images/shape5.png" alt="shape"></div>
+<div class="shape6 rotateme"><img src="assets/img/hike/images/shape4.svg" alt="shape"></div>
+<div class="shape7"><img src="assets/img/hike/images/shape4.svg" alt="shape"></div>
+<div class="shape8 rotateme"><img src="assets/img/hike/images/shape2.svg" alt="shape"></div>
+
+<section class="ptb-80">
+    <div class="container">
+        <div class="row" *ngIf="this.posts; let posts">
+
+            <div class="col-lg-12" *ngFor="let post of posts.posts">
+                <div class="section-title" style="text-align: left;">
+                    <h2>{{post.title}}</h2>
+                    <div class="bar" style="float: left"></div>
+                </div>
+                <div [innerHTML]="this.formatContent(post.content)" class="mov_view"></div>
+                <!-- <div> -->
+                <button *ngIf="!isContentToggled" (click)="toggleContent(post.content)" i18n>Read More</button>
+                <button *ngIf="isContentToggled" (click)="toggleContent(post.content)" i18n>Read Less</button>
+
+                <button (click)="click()">Click</button>
+
+                <!-- </div> -->
+
+
+
+                <br>
+            </div>
+        </div>
+    </div>
+</section>

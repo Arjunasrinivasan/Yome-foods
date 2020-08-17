@@ -40,7 +40,8 @@ import { BannerComponent } from './services/offline-marketing/banner/banner.comp
 import { FlyersComponent } from './services/offline-marketing/flyers/flyers.component';
 import { HoardingsComponent } from './services/offline-marketing/hoardings/hoardings.component';
 import { CareersComponent } from './careers/careers.component';
-import { InternshipComponent } from './internship/internship.component'
+import { InternshipComponent } from './internship/internship.component';
+import { DisplayBlogComponent } from './display-blog/display-blog.component';
 const routes: Routes = [
   // { path: '', redirectTo: '/home', pathMatch: 'full' }, // for defaault redirecting
   { path: '', component: HomeComponent },
@@ -83,6 +84,7 @@ const routes: Routes = [
   { path: 'hoardings', component: HoardingsComponent },
   { path: 'careers', component: CareersComponent },
   { path: 'internship', component: InternshipComponent },
+  { path: 'display-blog', component: DisplayBlogComponent },
   { path: '**', component: NotFoundComponent },
 ];
 
